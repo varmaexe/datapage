@@ -1,0 +1,99 @@
+*,*::after,*::before{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.main-nav{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: unset;
+    background-color: #7656c4;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    
+    a {
+        margin: 10px 0;
+    }
+}
+p{
+    font-size: xx-large;
+    margin: 50px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* CSS for the Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #060606;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #7656c4;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Add styles for alternate row colors */
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+/* Add styles for header row */
+thead {
+    background-color: #7656c4;
+    color: rgb(255, 255, 255);
+}
+
+/* Add hover effect on table cells */
+td:hover {
+    background-color: #e6e6e6;
+}
+
+.electricity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.water{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
